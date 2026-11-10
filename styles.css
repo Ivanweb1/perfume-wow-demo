@@ -123,11 +123,11 @@ nav a:hover i { transform: scale(2.2); }
 .volume-switch { display: inline-flex; padding: 4px; border: 1px solid rgba(42,31,23,.14); border-radius: 999px; background: rgba(255,255,255,.48); backdrop-filter: blur(9px); }
 .volume-switch button { padding: 12px 23px; border-radius: 999px; color: var(--muted); background: transparent; font-size: 12px; font-weight: 600; transition: .25s; }
 .volume-switch button.is-active { color: white; background: var(--ink); }
-.buy-row { position: fixed; top: 155px; bottom: auto; left: 72%; display: flex; align-items: center; gap: 20px; padding: 7px 7px 7px 24px; border-radius: 999px; background: rgba(255,255,255,.76); border: 1px solid rgba(255,255,255,.86); backdrop-filter: blur(14px); box-shadow: 0 16px 50px rgba(80,47,22,.14); transform: translateX(-50%); }
+.buy-row { position: fixed; top: 50%; bottom: auto; left: 78%; display: flex; align-items: center; gap: 20px; padding: 7px 7px 7px 24px; border-radius: 999px; background: rgba(255,255,255,.76); border: 1px solid rgba(255,255,255,.86); backdrop-filter: blur(14px); box-shadow: 0 16px 50px rgba(80,47,22,.14); transform: translate(-50%, -50%); }
 .price { min-width: 105px; font: 600 21px/1 var(--display); }
 .buy-button { height: 42px; padding: 0 6px 0 20px; display: flex; align-items: center; gap: 14px; border-radius: 999px; background: var(--ink); color: white; font-size: 11px; }
 .buy-button i { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; color: var(--ink); background: var(--amber); font-style: normal; font-size: 16px; }
-.delivery-note { position: fixed; right: 4vw; bottom: 46px; color: #6f5f51; font-size: 12px; font-weight: 500; }
+.delivery-note { position: fixed; left: 78%; top: calc(50% + 46px); transform: translateX(-50%); white-space: nowrap; color: #6f5f51; font-size: 12px; font-weight: 500; }
 .purchase-secondary { opacity: 0; }
 .purchase-index { opacity: 0; }
 

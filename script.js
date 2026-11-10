@@ -279,7 +279,7 @@ document.querySelectorAll('.volume-switch button').forEach((button) => {
   button.addEventListener('click', () => {
     document.querySelectorAll('.volume-switch button').forEach((b) => b.classList.remove('is-active'));
     button.classList.add('is-active');
-    const prices = { 30: '8 900 ₽', 50: '12 900 ₽', 100: '19 900 ₽' };
+    const prices = { 30: '89 000 ₽', 50: '129 000 ₽', 100: '199 000 ₽' };
     document.querySelector('.price').textContent = prices[button.dataset.volume];
   });
 });
