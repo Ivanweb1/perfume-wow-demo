@@ -58,7 +58,7 @@ nav a:hover i { transform: scale(2.2); }
 .title-line--image { display: flex; align-items: center; gap: 10px; }
 .title-line--image i { display: inline-block; flex: 0 0 82px; height: 37px; border-radius: 999px; background: url('assets/crops/title-resin.webp') center/cover; box-shadow: inset 0 0 0 1px rgba(255,255,255,.5); }
 .hero-lede { width: 405px; margin: 20px 0 22px; color: #5f5044; font-size: 15px; line-height: 1.48; }
-.catalog-cta { height: 46px; display: inline-flex; align-items: center; gap: 12px; padding: 4px 5px 4px 19px; background: rgba(255,255,255,.84); border-radius: 999px; box-shadow: 0 12px 30px rgba(77,44,20,.08); font-size: 11px; font-weight: 600; line-height: 1; }
+.catalog-cta { height: 46px; display: inline-flex; align-items: center; gap: 18px; padding: 4px 5px 4px 18px; background: rgba(255,255,255,.84); border-radius: 999px; box-shadow: 0 12px 30px rgba(77,44,20,.08); font-size: 11px; font-weight: 600; line-height: 1; }
 .catalog-cta i { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; color: white; background: var(--ink); font-style: normal; }
 .catalog-cta svg, .buy-button svg { width: 18px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
 
@@ -86,7 +86,7 @@ nav a:hover i { transform: scale(2.2); }
 .new-card__image img { width: 100%; height: 100%; object-fit: cover; object-position: 58% center; }
 
 .callout { position: fixed; z-index: 9; display: flex; align-items: center; color: var(--ink); font-size: 12px; font-weight: 600; letter-spacing: -.01em; }
-.callout__label { padding: 6px 9px; border-radius: 9px; background: rgba(239,230,218,.76); backdrop-filter: blur(6px); box-shadow: 0 5px 18px rgba(74,45,25,.05); }
+.callout__label { padding: 0; text-shadow: 0 0 2px rgba(255,248,240,.95), 0 0 10px rgba(255,248,240,.85), 0 0 22px rgba(255,248,240,.6); }
 .callout b { width: 9px; height: 9px; border: 2px solid rgba(255,255,255,.9); background: var(--amber); border-radius: 50%; box-shadow: 0 0 0 7px rgba(200,134,46,.17); animation: pulse 2s infinite; }
 .callout__line { display: block; width: 120px; height: 1px; background: linear-gradient(90deg, rgba(42,31,23,.15), rgba(42,31,23,.7)); transform-origin: right; }
 .callout--glass { left: auto; right: 68vw; top: 47%; }
@@ -107,7 +107,7 @@ nav a:hover i { transform: scale(2.2); }
 .note-label { position: fixed; z-index: 8; display: flex; align-items: center; opacity: 0; transform: translateY(10px); }
 .note-label b { flex: 0 0 auto; width: 9px; height: 9px; background: var(--amber); border: 2px solid white; box-shadow: 0 0 0 5px rgba(200,134,46,.18); border-radius: 50%; }
 .note-label i { flex: 0 0 auto; width: clamp(48px, 5.2vw, 76px); height: 1px; background: rgba(42,31,23,.48); }
-.note-label span { padding: 7px 10px; border-radius: 10px; color: var(--ink); background: rgba(239,230,218,.84); backdrop-filter: blur(7px); font: 600 18px/1 var(--display); box-shadow: 0 5px 18px rgba(74,45,25,.07); }
+.note-label span { padding: 0 10px; color: var(--ink); font: 600 18px/1 var(--display); text-shadow: 0 0 2px rgba(255,248,240,.95), 0 0 10px rgba(255,248,240,.85), 0 0 22px rgba(255,248,240,.6); }
 .note-label small { display: block; margin-top: 6px; color: #6f5f51; font: 600 9px/1 var(--sans); letter-spacing: .13em; text-transform: uppercase; }
 .note-label--rose { left: 84%; right: auto; top: 18%; }
 .note-label--bergamot { right: 49.5vw; top: 21%; flex-direction: row-reverse; }
