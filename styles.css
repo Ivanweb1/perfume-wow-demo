@@ -157,4 +157,5 @@ nav a:hover i { transform: scale(2.2); }
   .note-label { right: 20px; }
   .purchase-ui { width: calc(100vw - 30px); }
   .delivery-note { display: none; }
+  .buy-row { top: auto; bottom: 28px; left: 50%; transform: translateX(-50%); white-space: nowrap; }
 }
