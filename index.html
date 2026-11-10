@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#efe6da">
+  <title>MIRRA — аромат, который помнят</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loader" aria-live="polite">
+    <div class="loader__brand">MIRRA</div>
+    <div class="loader__track"><i></i></div>
+    <div class="loader__value">0%</div>
+  </div>
+
+  <main>
+    <div class="visual-stage" aria-hidden="true">
+      <canvas id="perfume-canvas"></canvas>
+      <div class="visual-vignette"></div>
+      <div class="film-grain"></div>
+    </div>
+
+    <header class="site-header hero-ui" data-parallax="0.22">
+      <a class="brand" href="#hero" aria-label="MIRRA, на главную">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>MIRRA</span>
+      </a>
+      <nav aria-label="Основная навигация">
+        <a href="#hero"><i></i>Каталог</a>
+        <a href="#notes"><i></i>Ноты</a>
+        <a href="#purchase"><i></i>Подарки</a>
+        <a href="#story"><i></i>О бренде</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" aria-label="Профиль">
+          <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7 8c0-3.3-3.1-6-7-6s-7 2.7-7 6"/></svg>
+        </button>
+        <button class="cart-button"><span>RU⌄</span><b>Корзина (0)</b></button>
+      </div>
+    </header>
+
+    <section class="scene scene--hero" id="hero" aria-label="MIRRA Noir">
+      <div class="hero-copy hero-ui" data-parallax="0.5">
+        <h1>
+          <span class="title-line">MIRRA — АРОМАТ,</span>
+          <span class="title-line title-line--image"><i></i> КОТОРЫЙ</span>
+          <span class="title-line">ПОМНЯТ</span>
+        </h1>
+        <p class="hero-lede">Парфюмерная вода с розой, бергамотом и смолой мирры. Ручная огранка флакона, 50 мл.</p>
+        <a class="catalog-cta" href="#notes"><span>Каталог</span><i>↗</i></a>
+      </div>
+
+      <div class="callout callout--glass hero-ui">
+        <span class="callout__label">Ручная огранка стекла</span>
+        <i class="callout__line"></i><b></b>
+      </div>
+      <div class="callout callout--resin hero-ui">
+        <b></b><i class="callout__line"></i>
+        <span class="callout__label">Натуральная смола мирры</span>
+      </div>
+
+      <article class="gift-card hero-ui glass-card" data-parallax="0.8">
+        <div class="gift-card__image"><img src="assets/crops/podium.webp" alt="Флакон MIRRA в подарочной упаковке"></div>
+        <div><span>Особый ритуал</span><strong>Подарочная<br>упаковка</strong></div>
+      </article>
+
+      <article class="reviews-card hero-ui glass-card" data-parallax="0.42">
+        <div class="reviews-card__score"><strong><span data-count="4.9">0</span> ★</strong><span><b data-count="2">0</b>k+ отзывов</span></div>
+        <div class="avatars" aria-label="Отзывы покупателей">
+          <i>АЛ</i><i>МК</i><i>ЕС</i><i>ИР</i><i>ДН</i><i>+</i>
+        </div>
+        <p>Нас выбирают за стойкость шлейфа и честный состав.</p>
+      </article>
+
+      <article class="new-card hero-ui glass-card" data-parallax="0.65">
+        <div class="new-card__copy">
+          <span class="tag">Новинка</span>
+          <h2>MIRRA Noir —<br>уже в продаже</h2>
+          <p>Тёплый древесный аромат для вечеров, которые остаются с вами.</p>
+          <button class="play-button" aria-label="Смотреть историю аромата">▶</button>
+        </div>
+        <div class="new-card__image"><img src="assets/crops/bottle-notes.webp" alt="MIRRA Noir и ноты аромата"></div>
+      </article>
+
+      <div class="scroll-hint hero-ui"><span>Листайте</span><i></i></div>
+    </section>
+
+    <section class="scene scene--notes" id="notes" aria-label="Ноты аромата">
+      <div class="notes-copy notes-ui">
+        <span class="eyebrow">Композиция / 04 ноты</span>
+        <h2>Роза.<br>Бергамот.<br><em>Мирра.</em></h2>
+        <p>Раскрывается постепенно — от искристой свежести к мягкому смолистому шлейфу.</p>
+      </div>
+      <div class="note-label note-label--rose notes-ui"><b></b><i></i><span>Роза <small>сердце</small></span></div>
+      <div class="note-label note-label--bergamot notes-ui"><b></b><i></i><span>Бергамот <small>верх</small></span></div>
+      <div class="note-label note-label--vanilla notes-ui"><b></b><i></i><span>Ваниль <small>база</small></span></div>
+      <div class="note-label note-label--myrrh notes-ui"><b></b><i></i><span>Мирра <small>шлейф</small></span></div>
+      <div class="section-index notes-ui">02 <i></i> НОТЫ</div>
+    </section>
+
+    <section class="scene scene--purchase" id="purchase" aria-label="Купить MIRRA Noir">
+      <div class="purchase-ui">
+        <span class="eyebrow">MIRRA / коллекция Noir</span>
+        <h2>Ваш аромат ждёт</h2>
+        <p>Парфюмерная вода · древесно-цветочная</p>
+        <div class="volume-switch" role="group" aria-label="Выберите объём">
+          <button data-volume="30">30 мл</button>
+          <button class="is-active" data-volume="50">50 мл</button>
+          <button data-volume="100">100 мл</button>
+        </div>
+        <div class="buy-row">
+          <strong class="price">12 900 ₽</strong>
+          <button class="buy-button"><span>Купить</span><i>↗</i></button>
+        </div>
+        <div class="delivery-note"><i>✓</i> Бесплатная доставка от 10 000 ₽</div>
+      </div>
+      <div class="section-index purchase-index">03 <i></i> ВАШ MIRRA</div>
+    </section>
+
+    <section class="story-spacer" id="story" aria-hidden="true"></section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
