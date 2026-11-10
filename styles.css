@@ -43,8 +43,8 @@ nav a:hover i { transform: scale(2.2); }
 .icon-button svg { width: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; }
 .cart-button { height: 44px; border-radius: 999px; background: rgba(255,255,255,.8); box-shadow: 0 8px 28px rgba(87,55,29,.08); padding: 0 20px; display: flex; align-items: center; gap: 18px; font-size: 10px; }
 .cart-button b { font-weight: 600; }
-.language { display: inline-flex; align-items: center; gap: 3px; line-height: 1; }
-.language i { display: inline-flex; align-items: center; justify-content: center; height: 1em; font-style: normal; font-size: 10px; line-height: 1; transform: translateY(-1px); }
+.language { display: inline-flex; align-items: center; gap: 5px; line-height: 1; }
+.language svg { width: 8px; height: 5px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
 
 .scene { position: relative; z-index: 2; }
 .scene--hero { height: 100vh; min-height: 720px; }
