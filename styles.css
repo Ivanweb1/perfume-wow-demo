@@ -63,6 +63,7 @@ nav a:hover i { transform: scale(2.2); }
 .hero-lede { width: 355px; margin: 18px 0 21px; color: #5f5044; font-size: 11px; line-height: 1.55; }
 .catalog-cta { display: inline-flex; align-items: center; gap: 5px; padding: 5px; padding-left: 19px; background: rgba(255,255,255,.84); border-radius: 999px; box-shadow: 0 12px 30px rgba(77,44,20,.08); font-size: 11px; font-weight: 600; }
 .catalog-cta i { width: 37px; height: 37px; border-radius: 50%; display: grid; place-items: center; color: white; background: var(--ink); font-style: normal; font-size: 17px; }
+.catalog-cta svg, .buy-button svg { width: 20px; height: 16px; fill: none; stroke: currentColor; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
 
 .glass-card { position: fixed; z-index: 10; border: 1px solid rgba(255,255,255,.65); background: linear-gradient(145deg, rgba(255,255,255,.84), rgba(255,252,247,.58)); backdrop-filter: blur(16px); box-shadow: 0 22px 60px rgba(86,51,24,.12); border-radius: 26px; overflow: hidden; }
 .gift-card { top: 118px; right: 4vw; width: 208px; padding: 10px; display: flex; align-items: center; gap: 12px; }
