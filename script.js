@@ -12,7 +12,7 @@ const FPS = 24;
 const isDemo = new URLSearchParams(location.search).get('demo') === '1';
 const body = document.body;
 const canvas = document.querySelector('#perfume-canvas');
-const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+const ctx = canvas.getContext('2d', { alpha: false });
 const loader = document.querySelector('.loader');
 const loaderBar = document.querySelector('.loader__track i');
 const loaderValue = document.querySelector('.loader__value');
