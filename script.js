@@ -22,6 +22,7 @@ const purchaseSection = document.querySelector('.scene--purchase');
 const heroUi = [...document.querySelectorAll('.hero-ui')];
 const notesUi = [...document.querySelectorAll('.notes-ui')];
 const purchaseUi = document.querySelector('.purchase-ui');
+const purchaseSecondary = [...document.querySelectorAll('.purchase-secondary')];
 const purchaseIndex = document.querySelector('.purchase-index');
 
 const sequences = { 1: [], 2: [], 3: [] };
@@ -161,6 +162,7 @@ function renderScrollState() {
   const purchaseReveal = inPurchase ? easeOutCubic(mapRange(purchaseProgress, .60, .86)) : 0;
   purchaseUi.style.opacity = purchaseReveal;
   purchaseUi.style.transform = `translate(-50%, ${(1 - purchaseReveal) * 24}px)`;
+  purchaseSecondary.forEach((el) => { el.style.opacity = purchaseReveal; });
   purchaseIndex.style.opacity = purchaseReveal;
 }
 

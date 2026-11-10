@@ -134,6 +134,7 @@ nav a:hover i { transform: scale(2.2); }
 .buy-button i { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; color: var(--ink); background: var(--amber); font-style: normal; font-size: 16px; }
 .delivery-note { position: fixed; right: 4vw; bottom: 48px; color: var(--muted); font-size: 8px; }
 .delivery-note i { margin-right: 6px; color: var(--amber); font-style: normal; }
+.purchase-secondary { opacity: 0; }
 .purchase-index { opacity: 0; }
 
 .hero-ui, .title-line, .hero-lede, .catalog-cta { will-change: transform, opacity; }
